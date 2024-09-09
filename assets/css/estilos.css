@@ -1,0 +1,103 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    height: 100vh;
+    background-color: black ;
+    display: grid;
+    grid-template-rows: 10% 80% 10%;
+}
+header{
+    background-color: rgb(107, 7, 7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}    
+header p{
+    color: #ffffff;
+    font-size: 3em;
+}
+.box-body{
+    display: grid;
+    grid-template-columns: 16% 84%
+}
+
+.box-categoria{
+    display: grid; 
+    grid-template-columns: auto;
+    background: rgb(187, 187, 187);
+    padding-left: 10px;
+
+}
+.box-productos{
+    display: flex;
+    background-color: rgb(237, 237, 237);
+    padding: 20px;   
+    justify-content:flex-start;
+    flex-wrap: wrap;
+}
+
+.box-producto{
+    display: block;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    
+}
+
+.producto{    
+    display: grid;    
+    grid-template-columns: auto;
+    justify-content: center;
+    grid-template-rows: 65%  auto auto 15%;    
+    border: 1px solid rgb(209, 209, 209);
+    background-color: #fff;
+    border-radius: 5px;
+    width: 250px;
+    height: 320px;
+}
+h2{
+    margin: 0px;
+    padding: 0px;
+    font-size: 1.7rem;
+    text-align: center;
+}
+
+.producto-precio{
+    text-align: center;
+    font-size: 1.2rem;
+    margin: 0px;
+    padding: 0px;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+li{
+    font-size: 1.3em;
+    padding-bottom: 6px;
+}
+
+
+footer{
+    background-color: rgb(107, 7, 7);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p{
+    color: #fff;
+    margin: 0;
+    font-size: 2em;
+}
+
+.btn-comprar{
+    width: 100%;
+    background: rgb(255, 204, 77);
+    border: greenyellow;;
+}
+
+img{
+    width: 100%;
+}
